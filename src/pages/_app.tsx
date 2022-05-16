@@ -14,11 +14,14 @@ function App({ Component, pageProps }: AppProps) {
       <Head>
         <link rel="shortcut icon" href="/img/iugu-icon.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
-        <link rel="manifest" href="../../manifest.json" />
-        <style>
-          @import
-          url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
-        </style>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#06092b" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <DefaultSeo {...SEO} />
       <GlobalStyles />

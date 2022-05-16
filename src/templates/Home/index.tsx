@@ -32,7 +32,13 @@ export default function HomeTemplate({ plans }: TplansProps) {
         }}
       />
       <S.Header>
-        <img className="header_logo" src="/img/icon-logo.svg" alt="Logo azul" />
+        <img
+          className="header_logo"
+          src="/img/icon-logo.svg"
+          alt="Logo azul"
+          width="42"
+          height="29"
+        />
         <div className="header_informations">
           <h2 className="plans_title">Confira o seu plano:</h2>
           <p className="plans_mail">david.souza@mail.com</p>
@@ -42,7 +48,7 @@ export default function HomeTemplate({ plans }: TplansProps) {
       <S.Footer>
         <div className="plans_info">
           <span>Sobre a cobrança </span>{" "}
-          <img src="/img/question.svg" alt="" width="13" />
+          <img src="/img/question.svg" alt="" width="13" height="13" />
         </div>
       </S.Footer>
     </>

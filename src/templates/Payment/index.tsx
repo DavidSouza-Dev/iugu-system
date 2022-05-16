@@ -85,7 +85,12 @@ const PaymentTemplate = ({ plan }: TPaymentTemplateProps) => {
         aria-label="Botão que retorna para tela de planos"
         onClick={() => handleClick()}
       >
-        <img src="/img/icon-arrow-chevron.svg" alt="" />
+        <img
+          src="/img/icon-arrow-chevron.svg"
+          alt="voltar para Home"
+          width="8"
+          height="13"
+        />
       </button>
       <S.Body>
         <form
@@ -97,7 +102,7 @@ const PaymentTemplate = ({ plan }: TPaymentTemplateProps) => {
           <p className="user_payment__subtitle">
             Insira seus dados de pagamento abaixo:
           </p>
-          <img src="/img/icon-pagamentos-info.svg" width="220" />
+          <img src="/img/icon-pagamentos-info.svg" width="220" height="51" />
           <div className="user_payment__form--row">
             <label htmlFor="numero-cartao">Número do cartão</label>
             <input

@@ -3,12 +3,12 @@
     "short_name": "Iugu System",
     "icons": [
       {
-        "src": "/img/iugu-icon.png",
+        "src": "/img/icon-192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/img/iugu-icon.png",
+        "src": "/img/icon-512.png",
         "type": "image/png",
         "sizes": "512x512"
       }

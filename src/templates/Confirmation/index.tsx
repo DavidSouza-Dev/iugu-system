@@ -27,7 +27,12 @@ const ConfirmationTemplate = ({ plan }: TconfirmationDataProps) => {
                 className="confirmation_return"
                 aria-label="Botão que retorna para tela de planos"
               >
-                <img src="/img/icon-arrow-chevron.svg" alt="" />
+                <img
+                  src="/img/icon-arrow-chevron.svg"
+                  alt="voltar para home"
+                  width="8"
+                  height="13"
+                />
               </a>
             </Link>
             <img
@@ -35,12 +40,14 @@ const ConfirmationTemplate = ({ plan }: TconfirmationDataProps) => {
               src="/img/icon-logo.svg"
               alt="Esse é o logo IUGU na cor azul"
               width="45"
+              height="31"
             />
             <img
               className="confirmation_icon-sucesso"
               src="/img/icon-success.svg"
               alt="Esse é o ícone de sucesso"
               width="65"
+              height="65"
             />
             <h5 className="confirmation_title" aria-label="Parabéns!">
               Parabéns!
@@ -59,6 +66,8 @@ const ConfirmationTemplate = ({ plan }: TconfirmationDataProps) => {
                 <img
                   src="/img/icon-star.svg"
                   alt="Logo estrela nos detalhes da compra"
+                  width="40"
+                  height="40"
                 />
                 <div
                   className="confirmation_details-plan-dscp"
