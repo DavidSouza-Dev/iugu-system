@@ -1,21 +1,21 @@
 {
-    "name": "My Trips",
-    "short_name": "My Trips",
+    "name": "Iugu System",
+    "short_name": "Iugu System",
     "icons": [
       {
-        "src": "/img/icon-192.png",
+        "src": "/img/iugu-icon.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/img/icon-512.png",
+        "src": "/img/iugu-icon.png",
         "type": "image/png",
         "sizes": "512x512"
       }
     ],
-    "background_color": "#06092B",
-    "description": "A simple project to show my favorite spots in the world",
+    "background_color": "#fff",
+    "description": "A simple project to show a page of plans to choose, simulate a checkout page and in the end, confirmation page",
     "display": "fullscreen",
     "start_url": "/",
-    "theme_color": "#06092B"
+    "theme_color": "#fff"
   }
